@@ -1,0 +1,343 @@
+#wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+/* Wrapper Style*/
+
+
+.intro {
+    width: 1000px;
+    height: 100px;
+    height:2000px;
+    margin-left:0 auto;
+    text-align: center;
+}
+
+.name{
+    color: #e0b1d0;
+    text-align: center;
+    font-size: 100px;
+    margin-top:15%;
+    font-weight: bold;
+}
+
+.art {
+        color: #e0b1d0;
+        text-align: center;
+        font-size: 50px;
+        margin-top: -20px;
+    }
+
+.btn-outline-primary {
+    color: #606a8c;
+    border-color: #606a8c;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #606a8c;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    border-color: #606a8c;
+
+}
+
+
+/*Starts nav style */
+.bg-light {
+    background-color: #ffffff!important;
+    box-shadow: 0px 0px 5px #606a8c;
+    margin-bottom: 25px;
+}
+
+.navbar-light .navbar-brand {
+    color:#e0b1d0;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 350px;
+}
+.navbar-nav {
+    margin-left: 950px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#606a8c;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#e0b1d0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*Starts about me style */
+.card {
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+    
+}
+
+.card-body {
+    width: 675px;
+    color: #606a8c;
+    padding: 15px;
+    margin-left: 12px;
+}
+
+.card-title {
+    color: #e0b1d0;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.card-img {
+    padding: 15px 0px 10px 15px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*Starts carrousel style */
+#carouselExampleControls {
+    width: 500px;
+    margin-left: 250px;
+}
+
+.col-sm {
+    margin-top:20px;
+}
+
+.thumbImg {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/concerts-1.png);
+}
+
+.thumbImg:hover {
+    background-image: url(assets/imgs/hover-concerts-1.png);
+}
+
+.thumbImg1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/nature-1.png);
+}
+
+.thumbImg1:hover {
+    background-image: url(assets/imgs/hover-nature-1.png);
+}
+
+.thumbImg2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/theatre-1.png);
+}
+
+.thumbImg2:hover {
+    background-image: url(assets/imgs/hover-theatre-1.png);
+}
+
+.thumbImg3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/painting-1.png);
+}
+
+.thumbImg3:hover {
+    background-image: url(assets/imgs/hover-painting-1.png);
+}
+
+.thumbImg4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/digital-1.png);
+}
+
+.thumbImg4:hover {
+    background-image: url(assets/imgs/hover-digital-1.png);
+}
+
+.thumbImg5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/dibujo-1.png);
+}
+
+.thumbImg5:hover {
+    background-image: url(assets/imgs/hover-dibujo-1.png);
+}
+
+.thumbImg6 {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/imgs/web-1.png);  
+}
+
+.thumbImg6:hover {
+    background-image: url(assets/imgs/hover-web-1.png);
+}
+
+/*Starts the links styles*/
+
+.webInfo {
+    color: #606a8c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption {
+    margin-top: 30px;
+}
+
+.linkWeb {
+    color: #e0b1d0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.linkWeb:hover{
+    color: #4e556b;
+}
+
+/*Starts footer style*/
+
+footer {
+    background-color: #606a8c;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icons {
+    padding-bottom: 24px;
+    color: #e0b1d0;
+    margin:0 auto;
+}
+
+.fa-instagram, .fa-behance, .fa-github, .fa-linkedin-in {
+    color: #e0b1d0;
+}
+
+.fa-instagram:hover, .fa-behance:hover, .fa-github:hover, .fa-linkedin-in:hover {
+    color: #b65395;
+}
+
+
+.table{
+    width:20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.copy {
+    padding-top: 8px;
+    color: #e0b1d0;
+    margin-bottom: 2px;
+}
+    
+/*Starts form style*/
+
+form {
+    margin-top:50px;
+}
+
+.btn-primary {
+    background-color: #606a8c;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin: 0 auto;
+}
+
+.btn-primary:hover {
+    background-color: #e0b1d0;
+}
+
+.form-group {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #e0b1d0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn.btn-primary {
+    margin-top: 20px;
+    margin-left: 821px;
+}
+
+.theatreInfo{
+    background-color: #ffffff;
+    color: #4e556b;
+    margin-top:10px;
+    text-align: center;
+}
+
+.mb-3{
+    max-width: 540px;
+}
+
+
+
+/* Media queries*/
+
+@media only screen and (max-width:1199px) {
+    .navbar-nav {
+        margin-left: 700px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #carouselExampleControls {
+        margin:0 auto;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    footer {
+        text-align: left;
+        padding-left: 250px;
+    }
+
+    form {
+        width:76%;
+    }
+
+    .card-body {
+        width: 475px;
+    }
+
+    .intro {
+        width: 767px;
+        margin-left:0 auto;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    footer {
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    form {
+        width:50%;
+    }   
+
+
+    .intro {
+        width: 575px;
+        margin-left:0 auto;
+        text-align: center;
+    }
+
+    .name{
+        font-size: 70px;
+    }
+}
