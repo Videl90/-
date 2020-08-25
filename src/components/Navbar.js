@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
-import { Link, buttonPath } from "react-router-dom";
+import React from 'react';
 import "./styles.css";
+import { Link } from "react-router-dom";
 
-class Navbar extends Component {
-    render() {
-      const pageLink = buttonPath();
-        return (
+function Navbar() {
+      return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -13,21 +11,37 @@ class Navbar extends Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link to="/aboutme" className= {pageLink.pathname === '/aboutme' ? "nav-link active" : "nav-link"}>ABOUT ME</Link>
+                  <Link
+                   to="/"
+                   className={
+                     window.location.pathname === "/" || window.location.pathname === "/about"
+                     ? "nav-link-active" : "nav-link"
+                    }>ABOUT ME
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/aboutme" className={pageLink.pathname === '/aboutme' ? "nav-link active" : "nav-link"}>ABOUT ME</Link>
-                  <a className="nav-link" href="portfolio.html">PORTFOLIO</a>
+                  <Link
+                    to="/porfolio"
+                    className={
+                      window.location.pathname === "/" || window.location.pathname === "/portfolio"
+                      ? "nav-link-active" : "nav-link"
+                      }>PORTFOLIO
+                    </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">CONTACT</a>
+                  <Link
+                    to="/contact"
+                    className={
+                      window.location.pathname === "/contact" || window.location.pathname === "/contact"
+                      ? "nav-link-active" : "nav-link"
+                      }>CONTACT
+                    </Link>
                 </li>
               </ul>
             </div>
           </nav>
 
         )
-    }
 }
 
 export default Navbar;

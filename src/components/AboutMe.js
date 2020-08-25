@@ -7,7 +7,7 @@ function AboutMe () {
         <div className="card mb-3">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={photo} className="card-img" alt="Logo" />
+                    <img src={photo} className="card-img" alt="Photo" />
                 </div>
               <div className="col-md-8">
                 <div className="card-body">
