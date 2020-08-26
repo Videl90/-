@@ -14,7 +14,7 @@ function Navbar( props ) {
                   <Link
                    to="/"
                    className = {
-                     window.location.pathname === "/react_portfolio" || window.location.pathname === "/about"
+                     window.location.pathname === "/" || window.location.pathname === "/about"
                      ? "nav-link" : "nav-link"
                     }>ABOUT ME
                   </Link>
