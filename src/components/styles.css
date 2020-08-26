@@ -75,6 +75,18 @@
     
 }
 
+.nav-link-active{
+    color:#606a8c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link-active:hover{
+    color:#e0b1d0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
 /*Starts about me style */
 .card {
     border:none;
@@ -217,7 +229,8 @@ footer {
 .icons {
     padding-bottom: 24px;
     color: #e0b1d0;
-    margin:0 auto;
+    margin-left: 480px;
+    margin-top: 20px;
 }
 
 .fa-instagram, .fa-behance, .fa-github, .fa-linkedin-in {
@@ -229,15 +242,15 @@ footer {
 }
 
 
-.table{
+.icon-table{
     width:20px;
     margin: 0 auto;
-    margin-top: 10px;
 }
 
 .copy {
     padding-top: 8px;
     color: #e0b1d0;
+    text-align: center;
     margin-bottom: 2px;
 }
     
@@ -281,6 +294,7 @@ form {
 
 .mb-3{
     max-width: 540px;
+    margin-left: 213px;
 }
 
 
@@ -291,11 +305,25 @@ form {
     .navbar-nav {
         margin-left: 700px;
     }
+    .mb-3{
+        max-width: 540px;
+        margin-left: 0;
+    }
+
+    .icons {
+        margin-left: 450px; 
+    }
+    
+    
 }
 
 @media only screen and (max-width:991px) {
     #carouselExampleControls {
         margin:0 auto;
+    }
+
+    .icons {
+        margin-left: 262px; 
     }
 
 }

@@ -15,7 +15,7 @@ function Navbar( props ) {
                    to="/"
                    className = {
                      window.location.pathname === "/" || window.location.pathname === "/about"
-                     ? "nav-link active" : "nav-link"
+                     ? "nav-link" : "nav-link"
                     }>ABOUT ME
                   </Link>
                 </li>
@@ -24,7 +24,7 @@ function Navbar( props ) {
                     to="/portfolio"
                     className={
                       window.location.pathname === "/portfolio"
-                      ? "nav-link active" : "nav-link"
+                      ? "nav-link" : "nav-link"
                       }>PORTFOLIO
                     </Link>
                 </li>
@@ -33,7 +33,7 @@ function Navbar( props ) {
                     to="/contact"
                     className={
                       window.location.pathname === "/contact"
-                      ? "nav-link active" : "nav-link"
+                      ? "nav-link" : "nav-link"
                       }>CONTACT
                   </Link>
                 </li>
