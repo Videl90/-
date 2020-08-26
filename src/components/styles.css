@@ -312,9 +312,7 @@ form {
 
     .icons {
         margin-left: 450px; 
-    }
-    
-    
+    } 
 }
 
 @media only screen and (max-width:991px) {
@@ -346,6 +344,10 @@ form {
         width: 767px;
         margin-left:0 auto;
     }
+
+    .icons{
+        margin-left: 165px;
+    }
 }
 
 @media only screen and (max-width:575px) {
@@ -367,6 +369,10 @@ form {
 
     .name{
         font-size: 70px;
+    }
+
+    .icons{
+        margin-left: 112px;
     }
 }
 
