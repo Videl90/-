@@ -341,3 +341,8 @@ form {
         font-size: 70px;
     }
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}

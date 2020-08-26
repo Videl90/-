@@ -2,7 +2,7 @@ import React from 'react';
 import "./styles.css";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar( props ) {
       return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,18 +13,18 @@ function Navbar() {
                 <li className="nav-item">
                   <Link
                    to="/"
-                   className={
+                   className = {
                      window.location.pathname === "/" || window.location.pathname === "/about"
-                     ? "nav-link-active" : "nav-link"
+                     ? "nav-link active" : "nav-link"
                     }>ABOUT ME
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/porfolio"
+                    to="/portfolio"
                     className={
-                      window.location.pathname === "/" || window.location.pathname === "/portfolio"
-                      ? "nav-link-active" : "nav-link"
+                      window.location.pathname === "/portfolio"
+                      ? "nav-link active" : "nav-link"
                       }>PORTFOLIO
                     </Link>
                 </li>
@@ -32,10 +32,10 @@ function Navbar() {
                   <Link
                     to="/contact"
                     className={
-                      window.location.pathname === "/contact" || window.location.pathname === "/contact"
-                      ? "nav-link-active" : "nav-link"
+                      window.location.pathname === "/contact"
+                      ? "nav-link active" : "nav-link"
                       }>CONTACT
-                    </Link>
+                  </Link>
                 </li>
               </ul>
             </div>

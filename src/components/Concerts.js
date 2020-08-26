@@ -3,58 +3,52 @@ import "./styles.css";
 import c1 from "./assets/imgs/c1.png";
 import c2 from "./assets/imgs/c2.png";
 import c3 from "./assets/imgs/c3.png";
+import c4 from "./assets/imgs/c3.png";
+import c5 from "./assets/imgs/c3.png";
 
 
-function ControlledCarousel() {
-    const [index, setIndex] = useState(0);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
-  
-    return (
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c1}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c2}
-            alt="Second slide"
-          />
-  
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c3}
-            alt="Third slide"
-          />
-  
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-    );
-  }
-  
-  render(<ControlledCarousel />);
+function Concerts() {
+  return(
+    <div className="container">
+            <div className="row">
+                <div className="col-xs">
+                    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img src={c1} className="d-block w-100 img-fluid" alt="concert" />
+                                <p className="theatreInfo">ARMOIRA at Presente Perfecto, Metepec - Nikon D5500 - 2019</p>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={c2} className="d-block w-100 img-fluid" alt="concert" />
+                                <p className="theatreInfo">ARMOIRA at Presente Perfecto, Metepec - Nikon D5500 - 2019</p>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={c3} className="d-block w-100 img-fluid" alt="concert" />
+                                <p className="theatreInfo">ARMOIRA at Presente Perfecto, Metepec - Nikon D5500 - 2019</p>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={c4} className="d-block w-100 img-fluid" alt="concert" />
+                                <p className="theatreInfo">ARMOIRA at Presente Perfecto, Metepec - Nikon D5500 - 2019</p>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={c5} className="d-block w-100 img-fluid" alt="concert" />
+                                <p className="theatreInfo">ARMOIRA at Presente Perfecto, Metepec - Nikon D5500 - 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Next</span>
+                    </a>  
+                </div>
+            </div>
+        </div>
+  )
+}
 
-  export default ControlledCarousel;
+export default Concerts;
+
