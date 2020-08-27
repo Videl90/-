@@ -17,10 +17,10 @@ function App() {
         <Navbar/>
         <Switch>
         <Wrapper>
-            <Route exact path={process.env.PUBLIC_URL + "/"} component={AboutMe} />
-            <Route exact path={process.env.PUBLIC_URL + "/react_portfolio"} component={AboutMe} />
-            <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio}/>
-            <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact}/>
+            <Route exact path={window.location.pathname + "/"} component={AboutMe} />
+            <Route exact path={window.location.pathname + "/react_portfolio"} component={AboutMe} />
+            <Route exact path={window.location.pathname + "/portfolio"} component={Portfolio}/>
+            <Route exact path={window.location.pathname + "/contact"} component={Contact}/>
           </Wrapper>
         </Switch>
         <Footer/>
