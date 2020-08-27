@@ -17,10 +17,9 @@ function App() {
         <Navbar/>
         <Switch>
         <Wrapper>
-            <Route exact path={window.location.pathname + "/"} component={AboutMe} />
-            <Route exact path={window.location.pathname + "/react_portfolio"} component={AboutMe} />
-            <Route exact path={window.location.pathname + "/portfolio"} component={Portfolio}/>
-            <Route exact path={window.location.pathname + "/contact"} component={Contact}/>
+            <Route exact path={["/react_portfolio", "/about"]} component={AboutMe} />
+            <Route exact path="/portfolio" component={Portfolio}/>
+            <Route exact path="/contact" component={Contact}/>
           </Wrapper>
         </Switch>
         <Footer/>
