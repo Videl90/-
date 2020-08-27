@@ -12,7 +12,7 @@ function Navbar( props ) {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                   to="/"
+                   to={process.env.PUBLIC_URL + "/"}
                    className = {
                      window.location.pathname === "/" || window.location.pathname === "/about"
                      ? "nav-link" : "nav-link"
@@ -21,7 +21,7 @@ function Navbar( props ) {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/portfolio"
+                    to={process.env.PUBLIC_URL + "/portfolio"}
                     className={
                       window.location.pathname === "/portfolio"
                       ? "nav-link" : "nav-link"
@@ -30,7 +30,7 @@ function Navbar( props ) {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/contact"
+                    to={process.env.PUBLIC_URL + "/contact"}
                     className={
                       window.location.pathname === "/contact"
                       ? "nav-link" : "nav-link"
