@@ -2,25 +2,33 @@
 # Professional React Porfolio
 
 ## Description
-My Professional Portfolio done with React
+My Professional Web Portfolio done using React.
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [Licence](#license)
 * [Tests](#tests)
+
 ## Installation
-No instalation needed
+1. Clone this repository.
+2. Install all dependencies needed running the "npm install" command.
+3. npm run start.
+
+Published at: https://videl90.github.io/react_portfolio/
+
 ## Usage
 Just navigate the page using the Navbar. Links to my web projects will be found in each portfolio projects' description. 
-## Credits
-Just me :)
+
 ## License 
- 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-## Tests
-No test need
+
+## Tools
+
+- Adobe Photoshop for all the interface design.
+- FontAwesome for all the icons
+- Bootstrap
+- 
 
 ## NPM Package
 
