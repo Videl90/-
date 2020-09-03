@@ -14,7 +14,7 @@ function App() {
      <Router>
        <>
         <Switch>
-          <Route exact path="/" component={AboutMePage}/>
+          <Route exact path="/react_portfolio" component={AboutMePage}/>
           <Route exact path="/portfolio" component={PortfolioPage}/>
           <Route exact path="/contact" component={ContactPage} />
         </Switch> 

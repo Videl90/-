@@ -12,9 +12,9 @@ function Navbar( props ) {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                   to="/"
+                   to="/react_portfolio"
                    className = {
-                     window.location.pathname === "/"
+                     window.location.pathname === "/react_portfolio"
                      ? "nav-link" : "nav-link"
                     }>ABOUT ME
                   </Link>
