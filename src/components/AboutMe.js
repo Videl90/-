@@ -18,6 +18,7 @@ function AboutMe () {
                   <p className="card-text">I'm a photographer, illustrator and painter. I love coffee, beer, literature, cinema and box.</p> 
                   <p className="card-text">My dream is to live on the beach and free dive with sharks. Go to metal festivals, and concerts is the thing that makes me feel more alive.</p> 
                   <p className="card-text">Feel free to contact me :)</p>
+                  <p>test</p>
                 </div>
               </div>
             </div>
