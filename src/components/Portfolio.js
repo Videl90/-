@@ -22,7 +22,7 @@ function Portfolio() {
                             <div className="carousel-item active">
                                 <img src={w1} className="d-block w-100 img-fluid" alt="concert" />
                                 <div class="carousel-caption d-none d-md-block">
-                                    <a href = "https://videl90.github.io/project_1/" class="linkWeb">Band Tracker</a>
+                                    <a href = "https://videl90.github.io/Band-Tracker/" class="linkWeb">Band Tracker</a>
                                     <p class="webInfo">The perfect app for music junkies, to keep track of their favorite bands and their next events</p>
                                 </div>
                             </div>
