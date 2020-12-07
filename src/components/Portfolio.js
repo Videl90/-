@@ -10,6 +10,7 @@ import w7 from "./assets/imgs/w7.png";
 import w8 from "./assets/imgs/w8.png";
 import w9 from "./assets/imgs/w9.png";
 import w10 from "./assets/imgs/w10.png";
+import w11 from "./assets/imgs/w11.png";
 
 
 function Portfolio() {
@@ -87,6 +88,13 @@ function Portfolio() {
                                 <div class="carousel-caption d-none d-md-block">
                                     <a href = "https://radiant-tor-52968.herokuapp.com/" class="linkWeb">Online/Offline Budget Tracker</a>
                                     <p class="webInfo">Use this progressive web app for keeping control of your budget. You can use it offline too</p>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={w11} className="d-block w-100 img-fluid" alt="app" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href = "hhttps://arctic-tern.herokuapp.com/" class="linkWeb">Arctic Tern - Traveling App</a>
+                                    <p class="webInfo">Your new favorite traveling planner</p>
                                 </div>
                             </div>
                         </div>
